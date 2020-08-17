@@ -9,3 +9,5 @@ For the convenience of anyone who uses them, LY (MMIO register at 0xFF44) is stu
 If you have any suggestions contact me on Discord: guccirodakino#1457
 
 Or on Nintendo Switch Online: SW-8356-6970-6111
+
+Note: All logs are zipped aside from the bootrom one. The Blargg11 one had to be zipped twice cause it's too :beeg:
