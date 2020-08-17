@@ -11,3 +11,7 @@ If you have any suggestions contact me on Discord: guccirodakino#1457
 Or on Nintendo Switch Online: SW-8356-6970-6111
 
 Note: All logs are zipped aside from the bootrom one. The Blargg11 one had to be zipped twice cause it's too :beeg:
+
+Format: <registers> (mem[pc] mem[pc+1] mem[pc+2] mem[pc+3])
+  I log the state of the CPU BEFORE every instruction
+  
