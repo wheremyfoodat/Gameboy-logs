@@ -1,5 +1,5 @@
 # Gameboy-logs
-Emulation logs of common beginner ROMs for the Gameboy.
+Emulation logs of common beginner ROMs for the Game Boy.
 Currently contains a log of the boot ROM (DMG) as well as all of Blargg's ROMs
 
 All these logs were generated with my own emulator which passes Blargg's CPU tests.
@@ -15,4 +15,5 @@ Note: All logs are zipped. The Blargg10 and Blargg11 one had to be zipped **twic
 Format: [registers] (mem[pc] mem[pc+1] mem[pc+2] mem[pc+3])
   
 I log the state of the CPU BEFORE every instruction
+For the Blargg CPU test logs, instructions executed below address 0x100 are not included
   
