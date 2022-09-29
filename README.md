@@ -15,4 +15,5 @@ Note: All logs are zipped. The Blargg10 and Blargg11 one had to be zipped **twic
 Format: [registers] (mem[pc] mem[pc+1] mem[pc+2] mem[pc+3])
   
 I log the state of the CPU BEFORE every instruction
-  
+
+Instructions at addresses below 0x100 are not logged. This may be noticable in RST or interrupts.
