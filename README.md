@@ -12,7 +12,7 @@ Or on Nintendo Switch Online: SW-8356-6970-6111
 
 **Note**: All logs are zipped. The Blargg10 and Blargg11 one had to be zipped **twice** cause they're too :beeg:
 
-**Side Note**: DMG boot ROM log has one of Blargg cpu-instrs (individual) loaded into memory, important when `PC:$00F4` as that computes the checksum validation. To ensure a match with this DMG boot ROM log, load one of the Blargg 1-11 cpu_instrs roms (they all have the same checksum). If you load in any other ROM, the checksum will differ, so the log at `PC:$00F4` will differ slightly.
+**Side Note**: The bootrom log has one of the individual Blargg CPU tests loaded into memory, which is important when the bootrom computes the cart checksum. To ensure a matching log, load one of the Blargg 1-11 cpu_instrs ROMs (they all have the same checksum). If you load in any other ROM, the checksum will differ, so the log will also differ slightly (Checksum calculation happens at the end of the bootrom, starting from PC = 0x00F4)
 
 Format: [registers] (mem[pc] mem[pc+1] mem[pc+2] mem[pc+3])
   
